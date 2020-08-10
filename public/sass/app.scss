@@ -1,0 +1,293 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.centered
+{
+	text-align: center;
+}
+.header
+{
+	background-image: url("../images/header.jpg");
+	background-color: #cccccc;
+	height: 250px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.title
+{
+	color: #00a3f0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 1px !important;
+}
+.sub-title
+{
+	color: #fff;
+	font-size: 0.9rem;
+	text-align: center;
+}
+.sub-sub-title
+{
+	color: #fff;
+	text-align: center;
+}
+.view-tender-listing-button
+{
+	background-color: #03a9f5;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.body-div
+{
+	padding: 20px;
+}
+.download-suggestion
+{
+	font-size: 0.9rem;
+	color: #6c6d71;
+	text-align: center;
+}
+.notice
+{
+	font-size: 0.9rem;
+	color: #000;
+	text-align: center;
+}
+.second-title
+{
+	background-image: url("../images/1119.jpg");
+	color: #fff;
+	height: 200px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.services-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+.services-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: #fff;
+}
+.services-table td, .services-table th {
+  border: 1px solid #fff; /*ddd*/
+  padding: 8px;
+}
+.services-table tr:nth-child(even){
+	background-color: #fff;
+}
+.services-table tr:hover {
+	background-color: #fff;
+}
+
+.tender-title h2
+{
+	font-size: 1.1rem;
+}
+.tender-title p
+{
+	font-size: 0.9rem;
+	color: #6c6d71;
+}
+.service-icon
+{
+	width: 30%;
+	float: left;
+}
+.service-details
+{
+	width: 65%;
+	float: right;
+}
+.terms-of-use
+{
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+}
+.terms-of-use p
+{
+	color: #6c6d71;
+	font-size: 0.9rem;
+}
+.social li
+{
+	list-style: none;
+	/*width: 30%;*/
+	display: inline-block;
+}
+.social li img
+{
+	width: 95%;
+	border-radius: 10px;
+}
+.unsubscribe-link
+{
+	color: #6c6d71;
+}
+.start-now-button
+{
+	background-color: #03a9f5;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.mail-start
+{
+	padding-top: 150px;
+	font-size: 1.3rem;
+}
+.mail-body
+{
+	color: #6c6d71;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+.suggestion-title
+{
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #000;
+}
+.waiting-section
+{
+	background-color: #f0eeef;
+	padding-bottom: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+.waiting-section img
+{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.waiting-section p
+{
+	color: #6c6d71;
+	font-size: 0.9rem;
+}
+.start-tendering-button
+{
+	background-color: #03a9f5;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.question-title
+{
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #000;
+}
+.yes-button
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #0782cf;
+	color: #fff;
+}
+.no-button
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #0782cf;
+	color: #fff;
+}
+.view-in-browser-button
+{
+	background-color: #03a9f5;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.tenders-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.tenders-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #001236;
+  color: #00a3f0;
+}
+.tenders-table td, .tenders-table th {
+  border: 1px solid #fff; /*ddd*/
+  padding: 8px;
+}
+.tenders-table tr:nth-child(even){
+	background-color: #f0eeef;
+}
+.tenders-table tr:hover {
+	background-color: #ddd;
+}
+.view-tender-button
+{
+	background-color: #03a9f5;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.tender-owner
+{
+	font-size: 0.9rem;
+	color: #6c6d71;
+}
+.nav
+{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+.nav li
+{
+	list-style: none;
+	display: inline-block;
+}
+.nav li a
+{
+	color: #000;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
