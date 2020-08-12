@@ -13,6 +13,11 @@ class PagesController extends Controller
     	return view('pages.welcomeemail');
     }
 
+    public function introductoryemail()
+    {
+        return view('pages.introductoryemail');
+    }
+
     public function bidbondemail($userID)
     {
     	$user_tedner = Tenders::where('owner_id', $userID)->take(1)->get();

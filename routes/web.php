@@ -19,9 +19,10 @@ Route::get('/', function () {
 
 Route::get('welcome-email', 'PagesController@welcomeemail');
 
+Route::get('introductory-email', 'PagesController@introductoryemail');
+
 Route::get('bidbond-email/{userID}', 'PagesController@bidbondemail');
 
 Route::get('suggestion-email', 'PagesController@suggestionemail');
 
 Route::get('notificaction-email', 'PagesController@notificationemail');
-

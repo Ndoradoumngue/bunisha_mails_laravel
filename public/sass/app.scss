@@ -19,7 +19,8 @@ html, body {
 }
 .title
 {
-	color: #00a3f0;
+	/*color: #00a3f0;*/
+	color: #fff;
 	text-align: center;
 	font-weight: bold;
 	font-size: 80px;
@@ -76,6 +77,20 @@ html, body {
 	font-size: 1.5rem;
 	margin-top: 10px;
 	text-transform: uppercase;
+}
+.introductory-title
+{
+	background-image: url("../images/hand-shake.jpg");
+	color: #fff;
+	height: 250px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 10px;
+	// text-transform: uppercase;
 }
 .services-table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -162,6 +177,22 @@ html, body {
 	padding-top: 150px;
 	font-size: 1.3rem;
 }
+.introductory-mail-start
+{
+	padding-top: 100px;
+	font-size: 1.8rem;
+}
+.to
+{
+	font-size: 1.6rem;
+	margin-top: -10px !important;
+}
+.introductory-sub-title
+{
+	color: #410c00 !important;
+	font-size: 1.6rem;
+	margin-top: -10px !important;
+}
 .mail-body
 {
 	color: #6c6d71;
@@ -215,8 +246,8 @@ html, body {
 	padding-bottom: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
-	background-color: #0782cf;
-	color: #fff;
+	background-color: #ff9a32 !important; //0782cf
+	color: #410c00;
 }
 .no-button
 {
@@ -224,7 +255,7 @@ html, body {
 	padding-bottom: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
-	background-color: #0782cf;
+	background-color: #0782cf !important;
 	color: #fff;
 }
 .view-in-browser-button
@@ -290,4 +321,93 @@ html, body {
 	text-decoration: none;
 	font-size: 0.9rem;
 }
+.automating
+{
+	color: #262535 !important;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 10px;
 
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+.tenders-list
+{
+	text-transform: uppercase;
+	color: #03a9f5;
+}
+.pre-qualification-title
+{
+	color: #ff9a32;
+	text-transform: uppercase;
+}
+.pre-qualification-section
+{
+	padding-bottom: 20px;
+	text-align: center;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+.pre-qualification-section img
+{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.pre-qualification-section p
+{
+	color: #6c6d71;
+	font-size: 0.9rem;
+}
+.prequalified
+{
+	color: #03a9f5;
+	text-transform: uppercase;
+}
+.pre-qualification-yes-button
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #01064a !important;
+	color: #fff;
+}
+.pre-qualification-maybe-button
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #01064a !important;
+	color: #d89153;
+}
+.blue-color
+{
+	color: #03a9f5;
+}
+.e-tender-platform
+{
+	color: #01064a;
+}
+.notifications-title
+{
+	color: #01064a;
+}
+.daily-notifications
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.subscribe-button
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #d89153;
+	font-weight: bold;
+	background-color: #01064a;
+	text-transform: uppercase;
+}
