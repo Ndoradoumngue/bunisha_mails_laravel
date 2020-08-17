@@ -9,13 +9,13 @@
 
         <div class="centered">
             <h2 class="question-title">Have you been tendering?</h2>
-            <a href="https://www.bunisha.com/"><button class="yes-button">YES</button></a>
-            <a href="https://www.bunisha.com/"><button class="no-button">NO</button></a>
+            <a href="https://www.bunisha.com/" class="yes-button">YES</a>
+            <a href="https://www.bunisha.com/" class="no-button">NO</a>
         </div>
         <br/>
 
         <div class="waiting-section">
-            <img src="lady-on-couch.jpg">
+            <img src="{{ asset('images/lady-on-couch.jpg') }}">
 
             <h4>We thought you might be interested in:</h4>
             <p>
@@ -23,7 +23,7 @@
             </p>
 
             <div class="centered">
-                <a href="https://www.bunisha.com/"><button class="start-tendering-button">Start Tendering Now</button></a>
+                <a class="start-tendering-button" href="https://www.bunisha.com/">Start Tendering Now</a>
             </div>
         </div>
 

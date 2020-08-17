@@ -11,16 +11,18 @@
         </div>
 
         <div class="centered">
-            <a href="https://www.bunisha.com/services/tenders"><button class="view-in-browser-button">View in your browser</button></a>
+            <br/><br/>
+            <a href="https://www.bunisha.com/services/tenders" class="view-in-browser-button">View in your browser</a>
+            <br/>
         </div>
 
-        <div class="automating">We are automating all your business process.</div>
+        <div class="automating"><br/>We are automating all your business process.</div>
 
         <div class="centered">
+            <br/>
             <!-- <h2 class="suggestion-title">We thought you might be interested in:</h2> -->
             <h2 class="tenders-list">Tenders</h2>
         </div>
-        <br/>
 
         <div class="waiting-section">
             <p>
@@ -32,8 +34,8 @@
 
             <div class="centered">
             <h2 class="question-title">DO YOU DO TENDERS?</h2>
-                <a href="https://www.bunisha.com/"><button class="yes-button">YES</button></a>
-                <a href="https://www.bunisha.com/"><button class="no-button">NO</button></a>
+                <a href="https://www.bunisha.com/" class="yes-button">YES</a>
+                <a href="https://www.bunisha.com/" class="no-button">NO</a>
             </div>
         </div>
         <br/><br/>

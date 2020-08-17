@@ -33,7 +33,7 @@
             </p>
 
             <div class="centered">
-                <a href="https://www.bunisha.com/"><button class="start-now-button">Start Now</button></a>
+                <a href="https://www.bunisha.com/" class="start-now-button">Start Now</a>
             </div>
         </div>
 

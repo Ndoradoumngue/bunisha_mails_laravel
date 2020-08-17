@@ -7,11 +7,16 @@ html, body {
 {
 	text-align: center;
 }
+.whole-mail
+{
+	width: 60% !important;
+	margin-left: 20% !important;
+}
 .header
 {
 	background-image: url("../images/header.jpg");
 	background-color: #cccccc;
-	height: 250px;
+	height: 150px;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -23,8 +28,10 @@ html, body {
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
-	font-size: 80px;
 	line-height: 1px !important;
+	font-family: 'Fontastique Fontastique' !important;
+	font-weight: 700 !important;
+	font-size: 3rem !important;
 }
 .sub-title
 {
@@ -47,6 +54,10 @@ html, body {
 	padding-right: 20px;
 	border-radius: 20px;
 	margin-top: 10px;
+}
+.view-tender-listing-button
+{
+	text-decoration: none;
 }
 .body-div
 {
@@ -82,7 +93,7 @@ html, body {
 {
 	background-image: url("../images/hand-shake.jpg");
 	color: #fff;
-	height: 250px;
+	height: 200px;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -115,24 +126,23 @@ html, body {
 .services-table tr:hover {
 	background-color: #fff;
 }
-
 .tender-title h2
 {
-	font-size: 1.1rem;
+	font-size: 0.95rem !important;
 }
 .tender-title p
 {
-	font-size: 0.9rem;
+	font-size: 0.8rem !important;
 	color: #6c6d71;
 }
 .service-icon
 {
-	width: 30%;
+	width: 15%;
 	float: left;
 }
 .service-details
 {
-	width: 65%;
+	width: 75%;
 	float: right;
 }
 .terms-of-use
@@ -144,7 +154,15 @@ html, body {
 .terms-of-use p
 {
 	color: #6c6d71;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
+}
+.terms-of-use h3
+{
+	font-size: 0.95rem;
+}
+.terms-of-use h4
+{
+	font-size: 0.95rem;
 }
 .social li
 {
@@ -154,8 +172,8 @@ html, body {
 }
 .social li img
 {
-	width: 95%;
-	border-radius: 10px;
+	width: 90%;
+	border-radius: 5px;
 }
 .unsubscribe-link
 {
@@ -171,6 +189,7 @@ html, body {
 	padding-right: 30px;
 	border-radius: 20px;
 	margin-top: 10px;
+	text-decoration: none !important;
 }
 .mail-start
 {
@@ -180,17 +199,17 @@ html, body {
 .introductory-mail-start
 {
 	padding-top: 100px;
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 }
 .to
 {
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	margin-top: -10px !important;
 }
 .introductory-sub-title
 {
 	color: #410c00 !important;
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	margin-top: -10px !important;
 }
 .mail-body
@@ -221,6 +240,11 @@ html, body {
 .waiting-section p
 {
 	color: #6c6d71;
+	font-size: 0.85rem;
+	padding: 10px;
+}
+.waiting-section h4
+{
 	font-size: 0.9rem;
 }
 .start-tendering-button
@@ -233,10 +257,11 @@ html, body {
 	padding-right: 20px;
 	border-radius: 20px;
 	margin-top: 10px;
+	text-decoration: none !important;
 }
 .question-title
 {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	font-weight: bold;
 	color: #000;
 }
@@ -247,7 +272,8 @@ html, body {
 	padding-left: 30px;
 	padding-right: 30px;
 	background-color: #ff9a32 !important; //0782cf
-	color: #410c00;
+	color: #410c00 !important;
+	text-decoration: none !important;
 }
 .no-button
 {
@@ -257,6 +283,7 @@ html, body {
 	padding-right: 30px;
 	background-color: #0782cf !important;
 	color: #fff;
+	text-decoration: none !important;
 }
 .view-in-browser-button
 {
@@ -268,6 +295,7 @@ html, body {
 	padding-right: 20px;
 	border-radius: 20px;
 	margin-top: 10px;
+	text-decoration: none !important;
 }
 .tenders-table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -297,11 +325,20 @@ html, body {
 	color: #fff;
 	padding: 5px;
 	border-radius: 5px;
+	text-decoration: none !important;
 }
 .tender-owner
 {
-	font-size: 0.9rem;
+	font-size: 0.85rem;
 	color: #6c6d71;
+}
+.tender-closing-date
+{
+	font-size: 0.85rem;
+}
+.table-head
+{
+	font-size: 0.85rem;
 }
 .nav
 {
@@ -336,11 +373,13 @@ html, body {
 {
 	text-transform: uppercase;
 	color: #03a9f5;
+	font-size: 1.2rem !important;
 }
 .pre-qualification-title
 {
 	color: #ff9a32;
 	text-transform: uppercase;
+	font-size: 1.2rem !important;
 }
 .pre-qualification-section
 {
@@ -390,10 +429,12 @@ html, body {
 .e-tender-platform
 {
 	color: #01064a;
+	font-size: 1.2rem !important;
 }
 .notifications-title
 {
 	color: #01064a;
+	font-size: 1.2rem !important;
 }
 .daily-notifications
 {
@@ -410,4 +451,144 @@ html, body {
 	font-weight: bold;
 	background-color: #01064a;
 	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.whole-mail
+	{
+		width: 80% !important;
+		margin-left: 10% !important;
+	}
+
+}
+
+@media only screen and (min-width: 411px) {
+
+	.whole-mail
+	{
+		width: 90% !important;
+		margin-left: 5% !important;
+	}
+	.title
+	{
+		font-size: 2.5rem !important;
+	}
+	.notice
+	{
+		font-size: 0.8rem;
+		color: #000;
+		text-align: center;
+	}
+	.second-title
+	{
+		height: 140px;
+		font-size: 1.3rem;
+		margin-top: 10px;
+	}
+	.tender-title h2
+	{
+		font-size: 0.85rem !important;
+	}
+	.tender-title p
+	{
+		font-size: 0.75rem !important;
+		color: #6c6d71;
+	}
+	.service-icon
+	{
+		width: 25%;
+		float: left;
+		margin-top: 15px;
+	}
+	.service-details
+	{
+		width: 70%;
+		float: right;
+	}
+	.social li img
+	{
+		width: 80%;
+		border-radius: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 320px) {
+
+	
+	.sub-title
+	{
+		padding: 20px;
+	}
+	.whole-mail
+	{
+		width: 96% !important;
+		margin-left: 2% !important;
+	}
+	.title
+	{
+		font-size: 2rem !important;
+	}
+	.notice
+	{
+		font-size: 0.8rem;
+		color: #000;
+		text-align: center;
+	}
+	.second-title
+	{
+		height: 125px;
+		font-size: 1.3rem;
+		margin-top: 10px;
+	}
+	.tender-title h2
+	{
+		font-size: 0.8rem !important;
+	}
+	.tender-title p
+	{
+		font-size: 0.75rem !important;
+		color: #6c6d71;
+	}
+	.service-icon
+	{
+		width: 25%;
+		float: left;
+		margin-top: 25px;
+	}
+	.service-details
+	{
+		width: 70%;
+		float: right;
+	}
+	.social li img
+	{
+		width: 80%;
+		border-radius: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 780px) {
+
+	.whole-mail
+	{
+		width: 60% !important;
+		margin-left: 20% !important;
+	}
+	.waiting-section p
+	{
+		color: #6c6d71;
+		font-size: 0.85rem;
+	}
+	.waiting-section h4
+	{
+		font-size: 0.9rem;
+	}
+	.question-title
+	{
+		font-size: 1rem !important;
+	}
+
 }
