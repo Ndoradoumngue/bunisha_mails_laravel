@@ -4,11 +4,14 @@
 
 	<div class="body-div">
 
-        <div class="introductory-title">
+        <!-- <div class="introductory-title">
+            <img src="https://kampuni.s3.amazonaws.com/assets/Email-Design-introductory-Banner.jpg">
             <h2 class="introductory-mail-start">Welcome</h2>
             <p class="to">to</p>
             <p class="introductory-sub-title">Your e-Business Platform</p>
-        </div>
+        </div> -->
+
+        <img class="starting-introductory-email" src="https://kampuni.s3.amazonaws.com/assets/Email-Design-introductory-Banner.jpg">
 
         <div class="centered">
             <br/><br/>
@@ -30,7 +33,7 @@
                 We have automated the tendering process to a click. Upon settling up your company on  Bunisha platform you will be able to compile your tender within <b>15mn</b>.
             </p>
 
-            <img src="{{ asset('images/tenders.jpg') }}">
+            <img src="https://kampuni.s3.amazonaws.com/assets/shutterstock_1017688345.jpg">
 
             <div class="centered">
             <h2 class="question-title">DO YOU DO TENDERS?</h2>
@@ -42,7 +45,7 @@
 
         <div class="pre-qualification-section">
             <h2 class="pre-qualification-title">PRE-QUALIFICATION</h2>
-            <img src="{{ asset('images/high-five.jpg') }}">
+            <img src="https://kampuni.s3.amazonaws.com/assets/2479440.jpg">
             <p>
                 <br/>
                 Do you want your company to be <span class="prequalified">pre-qualified</span> in 10mn procuring entities evevry month.
@@ -62,7 +65,7 @@
             </p>
             <h2 class="notifications-title">Notifications</h2>
 
-            <img src="{{ asset('images/notifications.jpg') }}">
+            <img src="https://kampuni.s3.amazonaws.com/assets/1576.jpg">
 
             <p>
                 Do you want to get <span class="daily-notifications">daily customized</span> notifications?.

@@ -4,7 +4,7 @@
 
 	<div class="body-div">
 
-        <div class="second-title">
+        <div class="bidbond-second-title">
             <h2 class="mail-start">Dear Customer,</h2>
         </div>
 

@@ -38,14 +38,14 @@
 
 				  <tr>
 				    <td class="tender-title">
-				    	<img class="service-icon" src="{{ asset('images/listing.png') }}">
+				    	<img class="service-icon" src="https://kampuni.s3.amazonaws.com/assets/listing.png">
 				    	<div  class="service-details">
 					    	<h2>Tenders Listing</h2>
 					    	<p>We will keep you up to date on relevant tenders.</p>
 					    </div>
 				    </td>
 				    <td class="tender-title">
-				    	<img class="service-icon" src="{{ asset('images/history.png') }}">
+				    	<img class="service-icon" src="https://kampuni.s3.amazonaws.com/assets/history.png">
 				    	<div  class="service-details">
 					    	<h2>Addendums</h2>
 					    	<p>Get notified on relevant tenders Addendums.</p>
@@ -55,14 +55,14 @@
 
 				  <tr>
 				    <td class="tender-title">
-				    	<img class="service-icon" src="{{ asset('images/visits.png') }}">
+				    	<img class="service-icon" src="https://kampuni.s3.amazonaws.com/assets/visits.png">
 				    	<div  class="service-details">
 					    	<h2>Site Visits</h2>
 					    	<p>We will ensure to inform you of all prebid meetings.</p>
 					    </div>
 				    </td>
 				    <td class="tender-title">
-				    	<img class="service-icon" src="{{ asset('images/reminder.png') }}">
+				    	<img class="service-icon" src="https://kampuni.s3.amazonaws.com/assets/reminder.png">
 				    	<div  class="service-details">
 					    	<h2>Reminders</h2>
 					    	<p>Get notified on relevant tenders Addendums.</p>
@@ -72,14 +72,14 @@
 
 				  <tr>
 				    <td class="tender-title">
-				    	<img class="service-icon" src="{{ asset('images/chart.jpg') }}">
+				    	<img class="service-icon" src="https://kampuni.s3.amazonaws.com/assets/chart.jpg">
 				    	<div  class="service-details">
 					    	<h2>Tender Results</h2>
 					    	<p>We will keep you up to date on tender results.</p>
 					    </div>
 				    </td>
 				    <td class="tender-title">
-				    	<img class="service-icon" src="{{ asset('images/award.png') }}">
+				    	<img class="service-icon" src="https://kampuni.s3.amazonaws.com/assets/award.png">
 				    	<div  class="service-details">
 					    	<h2>Tender Awards</h2>
 					    	<p>Subscribe today to receive tender awards.</p>

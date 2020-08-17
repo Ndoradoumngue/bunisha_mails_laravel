@@ -2,6 +2,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #fbfbfb !important;
 }
 .centered
 {
@@ -11,10 +12,11 @@ html, body {
 {
 	width: 60% !important;
 	margin-left: 20% !important;
+	background-color: #fff !important;
 }
 .header
 {
-	background-image: url("../images/header.jpg");
+	background-image: url("https://kampuni.s3.amazonaws.com/assets/header.jpg");
 	background-color: #cccccc;
 	height: 150px;
 	width: 100%;
@@ -75,9 +77,23 @@ html, body {
 	color: #000;
 	text-align: center;
 }
+.bidbond-second-title
+{
+	background-image: url("https://kampuni.s3.amazonaws.com/assets/1119.jpg");
+	color: #fff;
+	/*height: 250px;*/
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
 .second-title
 {
-	background-image: url("../images/1119.jpg");
+	background-image: url("https://kampuni.s3.amazonaws.com/assets/Mobile%20Device.jpg");
 	color: #fff;
 	height: 200px;
 	width: 100%;
@@ -91,7 +107,7 @@ html, body {
 }
 .introductory-title
 {
-	background-image: url("../images/hand-shake.jpg");
+	background-image: url("https://kampuni.s3.amazonaws.com/assets/hand-shake.jpg");
 	color: #fff;
 	height: 200px;
 	width: 100%;
@@ -102,6 +118,10 @@ html, body {
 	font-size: 1.5rem;
 	margin-top: 10px;
 	// text-transform: uppercase;
+}
+.starting-introductory-email
+{
+	width: 100% !important;
 }
 .services-table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -486,6 +506,12 @@ html, body {
 		font-size: 1.3rem;
 		margin-top: 10px;
 	}
+	.bidbond-second-title
+	{
+		/*height: 140px;*/
+		font-size: 1.3rem;
+		margin-top: 10px;
+	}
 	.tender-title h2
 	{
 		font-size: 0.85rem !important;
@@ -542,6 +568,12 @@ html, body {
 		font-size: 1.3rem;
 		margin-top: 10px;
 	}
+	.bidbond-second-title
+	{
+		/*height: 125px;*/
+		font-size: 1.3rem;
+		margin-top: 10px;
+	}
 	.tender-title h2
 	{
 		font-size: 0.8rem !important;
@@ -589,6 +621,17 @@ html, body {
 	.question-title
 	{
 		font-size: 1rem !important;
+	}
+	.bidbond-second-title
+	{
+		/*height: 250px;*/
+		font-size: 1.3rem;
+		margin-top: 10px;
+	}
+	.mail-start
+	{
+		padding-top: 150px;
+		font-size: 1.3rem;
 	}
 
 }
