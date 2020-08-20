@@ -31,7 +31,7 @@ html, body {
 	text-align: center;
 	font-weight: bold;
 	line-height: 1px !important;
-	font-family: 'Fontastique Fontastique' !important;
+	font-family: 'Assistant' !important;
 	font-weight: 700 !important;
 	font-size: 3rem !important;
 }
@@ -63,7 +63,7 @@ html, body {
 }
 .body-div
 {
-	padding: 20px;
+	/*padding: 20px;*/
 }
 .download-suggestion
 {
@@ -183,6 +183,10 @@ html, body {
 .terms-of-use h4
 {
 	font-size: 0.95rem;
+}
+.social
+{
+	margin-left: -40px;
 }
 .social li
 {
@@ -315,6 +319,19 @@ html, body {
 	padding-right: 20px;
 	border-radius: 20px;
 	margin-top: 10px;
+	text-decoration: none !important;
+}
+.view-more-button
+{
+	background-color: #ff9934;
+	color: #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 250px;
 	text-decoration: none !important;
 }
 .tenders-table {
@@ -493,6 +510,7 @@ html, body {
 	.title
 	{
 		font-size: 2.5rem !important;
+		font-family: 'Assistant' !important;
 	}
 	.notice
 	{
@@ -555,6 +573,7 @@ html, body {
 	.title
 	{
 		font-size: 2rem !important;
+		font-family: 'Assistant' !important;
 	}
 	.notice
 	{
