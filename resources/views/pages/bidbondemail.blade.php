@@ -25,7 +25,7 @@
         <br/>
 
         <div class="waiting-section">
-            <img src="{{ asset('images/lady-on-couch.jpg') }}">
+            <img src="https://kampuni.s3.amazonaws.com/assets/Lady%20on%20Couch.jpg">
 
             <h4>My virtual office</h4>
             <p>
